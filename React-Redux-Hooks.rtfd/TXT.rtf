@@ -1,0 +1,725 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2509
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fswiss\fcharset0 Helvetica-Bold;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\froman\fcharset0 Times-Roman;\f4\froman\fcharset0 Times-Bold;}
+{\colortbl;\red255\green255\blue255;\red13\green100\blue126;\red255\green255\blue255;\red252\green39\blue18;
+\red0\green0\blue233;\red0\green0\blue0;\red202\green202\blue202;\red23\green23\blue23;\red89\green138\blue67;
+\red70\green137\blue204;\red67\green192\blue160;\red140\green211\blue254;\red194\green126\blue101;\red212\green214\blue154;
+\red109\green109\blue109;\red183\green111\blue179;\red0\green0\blue233;\red0\green0\blue0;\red0\green0\blue0;
+\red255\green255\blue255;\red205\green173\blue106;\red167\green197\blue152;}
+{\*\expandedcolortbl;;\cssrgb\c0\c46667\c56863;\cssrgb\c100000\c100000\c100000;\cssrgb\c100000\c25271\c7591;
+\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0;\cssrgb\c83137\c83137\c83137;\cssrgb\c11765\c11765\c11765;\cssrgb\c41569\c60000\c33333;
+\cssrgb\c33725\c61176\c83922;\cssrgb\c30588\c78824\c69020;\cssrgb\c61176\c86275\c99608;\cssrgb\c80784\c56863\c47059;\cssrgb\c86275\c86275\c66667;
+\cssrgb\c50196\c50196\c50196;\cssrgb\c77255\c52549\c75294;\cssrgb\c0\c0\c93333;\cssrgb\c0\c0\c0\c87059;\cssrgb\c0\c0\c0\c7843;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c84314\c72941\c49020;\cssrgb\c70980\c80784\c65882;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \
+
+\f1\b\fs28 Section 1: Introduction
+\f0\b0\fs24 \
+\
+{{\NeXTGraphic Screen Shot 2020-02-20 at 8.06.39 PM.png \width14180 \height8040 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\
+\
+
+\f1\b\fs28 Section 1: Join our Online Classroom 
+\f0\b0\fs24 \
+\pard\pardeftab720\sl460\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://discord.gg/kDsZfGc"}}{\fldrslt 
+\f2\b\fs36 \cf2 \cb3 \expnd0\expndtw0\kerning0
+Join by clicking here: https://discordapp.com/invite/vNrhtnd}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+\
+
+\f1\b\fs28 Section 2: React Concepts 
+\f0\b0\fs24 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs28 \cf0 - UI Layer\
+- Declarative\
+- Unidirectional Data Flow\
+- Component Architecture\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 Section 2: Declarative vs Imperative\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - Don\'92t touch the DOM I will do it. 
+\f1\b \
+Imperative:
+\f0\b0  We manually change the content on the Web Page using jQuery or other \
+                    frameworks\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 Declarative:
+\f0\b0  We declare a state which upon clicking gets change to another state\
+
+\fs24 \
+
+\f1\b\fs28 Section 2: Component Architecture\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - Build websites like lego blocks\
+- Different components put together to make a page\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf4 We have state of our application and then components are build based on that data as functions. 
+\f0\b0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \
+Section 2: One Way Data Flow\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - Unidirectional Data Flow\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf4 State + JSX Components = function React(state, components) \{\'85\}  \'97> Acts as a ROBOT on \'97> Virtual DOM (Tree like Object) \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \
+
+\f0\b0\fs24 \
+
+\f1\b\fs28 Section 2: UI Library\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - {\field{\*\fldinst{HYPERLINK "https://reactdesktop.js.org/"}}{\fldrslt 
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\ul \ulc5 https://reactdesktop.js.org/}}
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\ul \ulc5 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone - {\field{\*\fldinst{HYPERLINK "https://github.com/Yomguithereal/react-blessed"}}{\fldrslt 
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\ul https://github.com/Yomguithereal/react-blessed}}
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone - {\field{\*\fldinst{HYPERLINK "https://facebook.github.io/react-360/"}}{\fldrslt 
+\f3 \cf5 \expnd0\expndtw0\kerning0
+\ul https://facebook.github.io/react-360/}}
+\f3\fs24 \cf5 \expnd0\expndtw0\kerning0
+\ul \
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \ulnone \
+
+\fs28 - UI,The rest is up to you.\
+
+\fs24 \
+
+\f1\b\fs28 Section 2: How to be a Great React Developer\
+
+\f0\b0 1. Decide on Components\
+	- How much we wanna break down the component, How we build those 	  components and decide how to break down the app on different components.\
+\
+2. Decide the State and where it lives\
+	- State can live in different locations in Virtual DOM or multiple locations.\
+ \
+3. What changes when state changes\
+	- What we need to render, what part of the Virtual DOM changes and it has big 	  affect on performance.\
+\
+- Declarative\
+- JSX \
+- Components\
+- State\
+- Props\
+- VirtualDOM\
+
+\f1\b \
+Section 2: Web Developer Monthly\
+- zerotomastery.io/blog/?tag=WDM\
+\
+Section 3: Section Overview\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\b0 \cf5 \expnd0\expndtw0\kerning0
+\ul React Docs: {\field{\*\fldinst{HYPERLINK "https://reactjs.org/docs/create-a-new-react-app.html"}}{\fldrslt https://reactjs.org/docs/create-a-new-react-app.html}}\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf5 Node Install: {\field{\*\fldinst{HYPERLINK "https://nodejs.org/en/"}}{\fldrslt https://nodejs.org/en/}}\
+NVM: {\field{\*\fldinst{HYPERLINK "https://github.com/nvm-sh/nvm"}}{\fldrslt https://github.com/nvm-sh/nvm}}\
+React CodeSandbox Editor: {\field{\*\fldinst{HYPERLINK "https://codesandbox.io/s/new"}}{\fldrslt https://codesandbox.io/s/new}}\
+
+\fs24 \
+
+\f1\b\fs28 \cf6 \ulnone To Make a new React Application:\
+
+\f0\b0 npx create-react-app my-app  OR yarn create react-app my-app\
+cd my-app \
+npm start\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 Section 3: Environment Setup for Mac\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://classic.yarnpkg.com/en/docs/install/#mac-stable"}}{\fldrslt 
+\f3\b0 \cf5 \expnd0\expndtw0\kerning0
+\ul https://classic.yarnpkg.com/en/docs/install/#mac-stable}}
+\f3\b0 \cf5 \expnd0\expndtw0\kerning0
+\ul \
+\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \ulnone command -v nvm \'93If nothing appears\'94\
+run \'93nano ~/.bash_profile\'94 on terminal \
+on NANO \'93~/.bashrc\'94 HIT Control + X to save \
+on Terminal TYPE \'93~/.bash_profile\'94 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\b0 \cf6 \expnd0\expndtw0\kerning0
+\
+
+\f1\b BUILD
+\f0\b0 : Turns all the react code in the \'91src\'92 folder into a version that browser 	\
+	    understands and put it inside the \'91public\'92 folder.\
+\
+Build folder is what we use to deploy our application and \'91src\'92 folder is our playground.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 Section 3: React Project Setup\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 BABEL allows us to take our source folder and make it work with whatever browser we are using.\
+WEBPACK is modular bundler, it is letting us write modular code. \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 Section 3: Class Components\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 To write class we have to 
+\f1\b import component.\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\cf9 \strokec9 Adding\'a0component\'a0gives\'a0us\'a0access\'a0to\'a0render()\'a0function \cf7 \cb1 \strokec7 \
+\cf6 By adding Class Component, we get access to State as well and state a JS Object with properties that we can access at any point. Which we can access with \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf10 \cb8 \strokec10 class\cf7 \strokec7 \'a0\cf11 \strokec11 App\cf7 \strokec7 \'a0\cf10 \strokec10 extends\cf7 \strokec7 \'a0\cf11 \strokec11 Component\cf7 \strokec7 \'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\cf10 \strokec10 constructor\cf7 \strokec7 ()\'a0\{\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //It\'a0calls\'a0constructor\'a0method\'a0on\'a0Component\'a0Class\'a0which\'a0gives\'a0access\'a0to\'a0this.state\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 super\cf7 \strokec7 ();\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //this.state\'a0exists\'a0on\'a0our\'a0class\'a0'App'\'a0and\'a0we\'a0can\'a0set\'a0it\'a0to\'a0something.\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 \'a0=\'a0\{\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 string:\cf7 \strokec7 \'a0\cf13 \strokec13 "Hello\'a0Ahmad\'a0Waheed"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\};\cb1 \
+\cb8 \'a0\'a0\}\cb1 \
+\cb8 \'a0\'a0\cf9 \strokec9 //Adding\'a0Component\'a0gives\'a0us\'a0access\'a0to\'a0render()\'a0function\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\cf14 \strokec14 render\cf7 \strokec7 ()\'a0\{\cb1 \
+
+\fs28 \cf6 and we can write JS in App return Function within \{\} \'93Curly Braces\'94\
+with component we also get access to this.setState\{\} which is JS Object and it lets us Modify this.state\{\}. \
+On every single HTML element we have access to property called onClick=\{\} which takes in a function which gets called whenever the Element gets clicked.\
+
+\fs24 \cf7 \cb8 \'a0\cf15 \strokec15 <\cf10 \strokec10 button\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 onClick\cf7 \strokec7 =\cf10 \strokec10 \{\cf7 \strokec7 ()\'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 string:\cf7 \strokec7 \'a0\cf13 \strokec13 "Hi,\'a0Chanudhry\'a0Ahmad"\cf7 \strokec7 \'a0\})\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+
+\fs28 \cf6  
+\fs24 \cf7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 button\cf15 \strokec15 >\cf7 \strokec7 Change\'a0Text\cf15 \strokec15 </\cf10 \strokec10 button\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Section 3: Dynamic Content\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf10 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 \'a0=\'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 monsters:\cf7 \strokec7 \'a0[\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{\'a0\cf12 \strokec12 name:\cf7 \strokec7 \'a0\cf13 \strokec13 "Frankenstein"\cf7 \strokec7 ,\'a0\cf12 \strokec12 id:\cf7 \strokec7 \'a0\cf13 \strokec13 "01"\cf7 \strokec7 \'a0\},\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{\'a0\cf12 \strokec12 name:\cf7 \strokec7 \'a0\cf13 \strokec13 "Dracula"\cf7 \strokec7 ,\'a0\cf12 \strokec12 id:\cf7 \strokec7 \'a0\cf13 \strokec13 "02"\cf7 \strokec7 \'a0\},\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\{\'a0\cf12 \strokec12 name:\cf7 \strokec7 \'a0\cf13 \strokec13 "Zombie"\cf7 \strokec7 ,\'a0\cf12 \strokec12 id:\cf7 \strokec7 \'a0\cf13 \strokec13 "03"\cf7 \strokec7 \'a0\}\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0]\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\};\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\cf16 \strokec16 return\cf7 \strokec7 \'a0(\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 div\cf7 \strokec7 \'a0\cf12 \strokec12 className\cf7 \strokec7 =\cf13 \strokec13 "App"\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf10 \strokec10 \{this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 .\cf12 \strokec12 monsters\cf7 \strokec7 .\cf14 \strokec14 map\cf7 \strokec7 (\cf12 \strokec12 monster\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0(\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 h1\cf7 \strokec7 \'a0\cf12 \strokec12 key\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 id\cf10 \strokec10 \}\cf15 \strokec15 >\cf10 \strokec10 \{\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 name\cf10 \strokec10 \}\cf15 \strokec15 </\cf10 \strokec10 h1\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0))\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 </\cf10 \strokec10 div\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0);\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\cf9 \strokec9 map()\'a0function\'a0iterates\'a0over\'a0every\'a0member\'a0of\'a0the\'a0object/array\cf7 \cb1 \strokec7 \
+
+\fs24 \
+
+\fs28 \cf6 Key is important because that\'92s how react knows which object on the state we are updating and it only update that specific Object in new State.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Section 3: Single Page Application\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 SPA is more of getting data and get it rendered on the Page rather switching between different pages. \
+\
+- {\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/whatis/whatis_json.asp"}}{\fldrslt 
+\f3 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 https://www.w3schools.com/whatis/whatis_json.asp}}
+\f3 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 \
+\ulnone - {\field{\*\fldinst{HYPERLINK "https://jsonplaceholder.typicode.com/users"}}{\fldrslt \ul https://jsonplaceholder.typicode.com/users}}
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Section 3: Fetching Content\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\b0 \cf5 \expnd0\expndtw0\kerning0
+- {\field{\*\fldinst{HYPERLINK "https://jsonplaceholder.typicode.com/users"}}{\fldrslt \ul https://jsonplaceholder.typicode.com/users}}\ul \
+\cf6 \ulnone We have to make a call to fetch the date from the Server. \
+\
+
+\f4\b Lifecycle Methods:\
+
+\f3\b0 Methods that gets called at different stages of when this component gets rendered.\
+\
+
+\f4\b componentDidMount()
+\f3\b0  //When react rendered the Component for the first time and calls the block of code we write inside of it.\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+\cf14 \cb8 \outl0\strokewidth0 \strokec14 componentDidMount\cf7 \strokec7 ()\'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //makes\'a0an\'a0API\'a0request\'a0ot\'a0that\'a0URL\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf14 \strokec14 fetch\cf7 \strokec7 (\cf13 \strokec13 "https://jsonplaceholder.typicode.com/users"\cf7 \strokec7 )\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0.\cf14 \strokec14 then\cf7 \strokec7 (\cf12 \strokec12 response\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf12 \strokec12 response\cf7 \strokec7 .\cf14 \strokec14 json\cf7 \strokec7 ())\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0.\cf14 \strokec14 then\cf7 \strokec7 (\cf12 \strokec12 users\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 monsters:\cf7 \strokec7 \'a0\cf12 \strokec12 users\cf7 \strokec7 \'a0\}));\cb1 \
+\cb8 \'a0\'a0\}\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf6 \outl0\strokewidth0 \
+We are using this 
+\f4\b \cf6 componentDidMount() 
+\f3\b0 method which we have access to because of Class Component Method and we are fetching data from URL above and converting it into JSON Format and then we are taking users we get back from it and assigning it to monsters array.\cf6 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 Section 3: Card List Component\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 Components takes in Props which is a parameter of a functional component and every Props have its own children which is whatever we pass in between brackets <CardList> children </CardList>
+\f3 \cf6 \expnd0\expndtw0\kerning0
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\fs24 \cf7 \outl0\strokewidth0 \strokec7 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf11 \strokec11 CardList\cf7 \strokec7 \'a0\cf12 \strokec12 name\cf7 \strokec7 =\cf13 \strokec13 "AW\'a0Salimi"\cf7 \strokec7 \'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+
+\fs28 \cf6 The name Prop will be the Object of any properties that we write on this component.\
+and the App component also have access to Props of functional component.\
+\
+By passing the CSS ClassName into card-list.component.jsx\
+
+\fs24 \cf7 \cb8 \'a0\'a0\cf16 \strokec16 return\cf7 \strokec7 \'a0\cf15 \strokec15 <\cf10 \strokec10 div\cf7 \strokec7 \'a0\cf12 \strokec12 className\cf7 \strokec7 =\cf13 \strokec13 "card-list"\cf15 \strokec15 >\cf10 \strokec10 \{\cf12 \strokec12 props\cf7 \strokec7 .\cf12 \strokec12 children\cf10 \strokec10 \}\cf15 \strokec15 </\cf10 \strokec10 div\cf15 \strokec15 >\cf7 \strokec7 ;\cb1 \
+
+\fs28 \cf6 and \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf16 \cb8 \strokec16 return\cf7 \strokec7 \'a0(\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 div\cf7 \strokec7 \'a0\cf12 \strokec12 className\cf7 \strokec7 =\cf13 \strokec13 "App"\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf11 \strokec11 CardList\cf7 \strokec7 \'a0\cf12 \strokec12 name\cf7 \strokec7 =\cf13 \strokec13 "AW\'a0Salimi"\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf10 \strokec10 \{this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 .\cf12 \strokec12 monsters\cf7 \strokec7 .\cf14 \strokec14 map\cf7 \strokec7 (\cf12 \strokec12 monster\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0(\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 h1\cf7 \strokec7 \'a0\cf12 \strokec12 key\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 id\cf10 \strokec10 \}\cf15 \strokec15 >\cf10 \strokec10 \{\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 name\cf10 \strokec10 \}\cf15 \strokec15 </\cf10 \strokec10 h1\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0))\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 </\cf11 \strokec11 CardList\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 </\cf10 \strokec10 div\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0);\cb1 \
+
+\fs28 \cf6 Passing this into the App.js will split the grid into 4 sections and it will put it as a children in-between the <div>\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Section 3: Card Component\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf16 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec16 return\cf7 \strokec7 \'a0(\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 div\cf7 \strokec7 \'a0\cf12 \strokec12 className\cf7 \strokec7 =\cf13 \strokec13 "App"\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf11 \strokec11 CardList\cf7 \strokec7 \'a0\cf12 \strokec12 monsters\cf7 \strokec7 =\cf10 \strokec10 \{this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 .\cf12 \strokec12 monsters\cf10 \strokec10 \}\cf7 \strokec7 \'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 </\cf10 \strokec10 div\cf15 \strokec15 >\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0);\cb1 \
+
+\fs28 \cf6 we passed in monsters into the App.js file by making it props of CardList.\
+\
+
+\f4\b App.js\
+
+\f3\b0 Imports CardList from card-list/card-list.component\
+- Initializes empty State with this.state = \{ monsters: [] \} which is within constructor\
+- Component DidMount() LifeCycle fetches from API, transfers the response into JSON and\
+  then it sets the response equal to 
+\f4\b monster object. 
+\f3\b0 \
+- In the render it sets the 
+\f4\b monster object to current State.
+\f3\b0  \
+\
+
+\f4\b CardList\
+
+\f3\b0 It imports Card from ../card/card.component.jsx\
+It is a Functional Component it runs the map() on monsters Array and sets the monster to monster and sets the key equal to specific ID.\
+\
+
+\f4\b Card\
+
+\f3\b0 It is a Functional Component and it within a <div> there is a <img> which grabs the image by its id 
+\fs24 \cf13 \cb8 \strokec13 `https://robohash.org/\cf10 \strokec10 $\{\cf12 \strokec12 props\cf7 \strokec7 .\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 id\cf10 \strokec10 \}\cf13 \strokec13 ?set=set2&size=180x180` \
+
+\fs28 \cf6 \cb1 \strokec7 and grabs the name, email and phone from Props.\
+
+\fs24 \cf7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 Section 3: State vs Props\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - State in the App.js changes because of user interaction and gets passed to a Component, that component receives it as a prop.\
+\
+- The changed state trickle downs to the component associated to it and the State in App.js turns into Props to Functional Components we pass it down.\
+\
+ - State gets passed into our Location/ Components and gets passed down to other   \
+   functional components as props.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 Section 3: SearchField State\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 - {\field{\*\fldinst{HYPERLINK "https://reactjs.org/docs/react-component.html#setstate"}}{\fldrslt 
+\f3\fs24 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 https://reactjs.org/docs/react-component.html#setstate}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 input\cf7 \strokec7 \'a0\cf12 \strokec12 type\cf7 \strokec7 =\cf13 \strokec13 "search"\cf7 \strokec7 \'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf13 \strokec13 "Search\'a0Monsters"\cf7 \strokec7 \'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 This will create an input search field on the page and type=\'93search\'94 will make it able to see the words we are going to type it is opposite of Password.\
+\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf15 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec15 <\cf10 \strokec10 input\cf7 \cb1 \strokec7 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 type\cf7 \strokec7 =\cf13 \strokec13 "search"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf13 \strokec13 "Search\'a0Monsters"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 onChange\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 e\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf11 \strokec11 console\cf7 \strokec7 .\cf14 \strokec14 log\cf7 \strokec7 (\cf12 \strokec12 e\cf7 \strokec7 )\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 - It is a synthetic event, 
+\f1\b onChange
+\f0\b0  event gets fired up every time within the <input /> changes. It could be adding or deleting characters.\
+- It is native Browser event and all we have to worry about is \
+  set target: f() and get target: f()\
+- Adding 
+\f1\b \'93 e.target \'94
+\f0\b0  will tell us where in the state we are and \
+- Adding 
+\f1\b \'93 e.target.value \'94
+\f0\b0  will give back the value we passed in and we can set the State on it.\
+\
+Finally \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 onChange\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 e\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf12 \strokec12 e\cf7 \strokec7 .\cf12 \strokec12 target\cf7 \strokec7 .\cf12 \strokec12 value\cf7 \strokec7 \'a0\})\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 This will bind the searchField with the Current State which can be pass on to other components using Props.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b \cf0 Section 3: React Events
+\f0\b0 \
+Synthetic Events: They are fake events but React gets notified.\
+e:g onChange() is a Synthetic event because it is not native one \'93onchange()\'94 and we use onChange() event to detect the change and update our State.\
+- State gets changed depending on the user action.\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://reactjs.org/docs/events.html"}}{\fldrslt 
+\f3\fs24 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 https://reactjs.org/docs/events.html}}
+\f3\fs24 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 \
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \ulnone \outl0\strokewidth0 HTML Events\
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"}}{\fldrslt 
+\f3\fs24 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events}}
+\f1\b \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b0 \cf0 Native onchange()
+\fs24 \
+\pard\pardeftab720\sl280\partightenfactor0
+{\field{\*\fldinst{HYPERLINK "https://www.w3schools.com/jsref/event_onchange.asp"}}{\fldrslt 
+\f3 \cf17 \expnd0\expndtw0\kerning0
+\ul \ulc17 \outl0\strokewidth0 \strokec17 https://www.w3schools.com/jsref/event_onchange.asp}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 \
+
+\fs28 So, e => is anonymous function which gets triggered when the change occurs and we cannot use setState=\{\} within the render() because it can create errors and by having this function we are not running the function instead we are just declaring it,\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf10 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 \'a0=\'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 monsters:\cf7 \strokec7 \'a0[],\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf13 \strokec13 "\'a0"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\};\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3 \cf15 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec15 <\cf10 \strokec10 input\cf7 \cb1 \strokec7 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 type\cf7 \strokec7 =\cf13 \strokec13 "search"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf13 \strokec13 "Search\'a0Monsters"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 onChange\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 e\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf12 \strokec12 e\cf7 \strokec7 .\cf12 \strokec12 target\cf7 \strokec7 .\cf12 \strokec12 value\cf7 \strokec7 \'a0\})\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\f1\b\fs28 Section 3: Filtering State\
+
+\f0\b0 - Restructuring: Allows us to pull properties from Objects and set them to a Constant\
+  that we put in the \{ \'85 \}\
+\
+Destructuring comes in the render()\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf14 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec14 render\cf7 \strokec7 ()\'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 const\cf7 \strokec7 \'a0\{\'a0\cf12 \strokec12 monsters\cf7 \strokec7 ,\'a0\cf12 \strokec12 searchField\cf7 \strokec7 \'a0\}\'a0=\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 state\cf7 \strokec7 ;\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //This\'a0is\'a0equivale\'a0to\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //const\'a0monsters\'a0=\'a0this.state.monsters;\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf9 \strokec9 //const\'a0searchField\'a0=\'a0this.state.searchField;\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0  \
+
+\f1\b HOW TO SEARCH OUT
+\f0\b0 \
+It will search for Monsters we are going to pass into the <Input>\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf9 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 //Now\'a0we\'a0will\'a0get\'a0a\'a0new\'a0array\'a0which\'a0is\'a0based\'a0on\'a0the\'a0function\'a0passed\'a0into\'a0it\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 const\cf7 \strokec7 \'a0\cf12 \strokec12 filteredMonsters\cf7 \strokec7 \'a0=\'a0\cf12 \strokec12 monsters\cf7 \strokec7 .\cf14 \strokec14 filter\cf7 \strokec7 (\cf12 \strokec12 monster\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 monster\cf7 \strokec7 .\cf12 \strokec12 name\cf7 \strokec7 .\cf14 \strokec14 toLowerCase\cf7 \strokec7 ().\cf14 \strokec14 includes\cf7 \strokec7 (\cf12 \strokec12 searchField\cf7 \strokec7 .\cf14 \strokec14 toLowerCase\cf7 \strokec7 ())\cb1 \
+\cb8 \'a0\'a0\'a0\'a0);\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+Everytime we <input /> gets modified it triggers changes into the setState and which modifies searchField and eventually monsters get modified.\
+\
+
+\f1\b Section 3: Search Box Component\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf16 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec16 export\cf7 \strokec7 \'a0\cf10 \strokec10 const\cf7 \strokec7 \'a0\cf14 \strokec14 SearchBox\cf7 \strokec7 \'a0=\'a0(\{\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 ,\'a0\cf12 \strokec12 handleChange\cf7 \strokec7 \'a0\})\'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0(\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\cf15 \strokec15 <\cf10 \strokec10 input\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf12 \strokec12 className\cf7 \strokec7 =\cf13 \strokec13 "search"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf12 \strokec12 type\cf7 \strokec7 =\cf13 \strokec13 "search"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 placeholder\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\cf12 \strokec12 onChange\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 handleChange\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\cb8 );\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf15 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec15 <\cf11 \strokec11 SearchBox\cf7 \cb1 \strokec7 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf13 \strokec13 "Search\'a0Monsters"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 handleChange\cf7 \strokec7 =\cf10 \strokec10 \{\cf12 \strokec12 e\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf12 \strokec12 e\cf7 \strokec7 .\cf12 \strokec12 target\cf7 \strokec7 .\cf12 \strokec12 value\cf7 \strokec7 \'a0\})\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\f1\b Section 3: Class Methods and Arrow Functions\
+
+\f0\b0 \'91this\'92 keyword: That references the context in which it is being invoked.\
+\
+This will bind the handleChange function to the synthetic value \'91e\'92 which gets passed as a property of <SearchBox />\
+\'91this\'92 basically tells the function that \'91this\'92 keyword is referring to this.state\{\} within the constructor \
+
+\f3 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\'a0\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 handleChange\cf7 \strokec7 \'a0=\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf12 \strokec12 handleChange\cf7 \strokec7 .\cf14 \strokec14 bind\cf7 \strokec7 (\cf10 \strokec10 this\cf7 \strokec7 );\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\fs24 \cf7 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf14 \cb8 \strokec14 handleChange\cf7 \strokec7 (\cf12 \strokec12 e\cf7 \strokec7 )\'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf12 \strokec12 e\cf7 \strokec7 .\cf12 \strokec12 target\cf7 \strokec7 .\cf12 \strokec12 value\cf7 \strokec7 \'a0\});\cb1 \
+\cb8 \'a0\'a0\}\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\b0\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\cf15 \strokec15 <\cf11 \strokec11 SearchBox\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 placeholder\cf7 \strokec7 =\cf13 \strokec13 "Search\'a0Monsters"\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf12 \strokec12 handleChange\cf7 \strokec7 =\cf10 \strokec10 \{this\cf7 \strokec7 .\cf12 \strokec12 handleChange\cf10 \strokec10 \}\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0\'a0\'a0\'a0\'a0\'a0\'a0\cf15 \strokec15 />\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1\b\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\f0\b0 But if we use => function than we don\'92t need to bind it explicitly which is called lexical scoping\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\cf14 \strokec14 handleChange\cf7 \strokec7 \'a0=\'a0\cf12 \strokec12 e\cf7 \strokec7 \'a0\cf10 \strokec10 =>\cf7 \strokec7 \'a0\{\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf10 \strokec10 this\cf7 \strokec7 .\cf14 \strokec14 setState\cf7 \strokec7 (\{\'a0\cf12 \strokec12 searchField:\cf7 \strokec7 \'a0\cf12 \strokec12 e\cf7 \strokec7 .\cf12 \strokec12 target\cf7 \strokec7 .\cf12 \strokec12 value\cf7 \strokec7 \'a0\});\cb1 \
+\cb8 \'a0\'a0\};\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+
+\f1\b Section 3: Deploying Our App\
+
+\f0\b0 Go to 
+\f1\b fonts.google.com
+\f0\b0  and choose the font\
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f3\fs24 \cf18 \cb19 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec18 <link href="https://fonts.googleapis.com/css?family=
+\f4\b \cb1 Bigelow+Rules
+\f3\b0 \cb19 &display=swap" rel="stylesheet">\
+
+\f0\fs28 \cf6 \cb20 And add this link to index.html \'97> under <link rel=\'93manifest\'94>\
+\
+Add this to App.css\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf21 \cb8 \strokec21 h1\cf7 \strokec7 \'a0\{\cb1 \
+\pard\pardeftab720\sl360\partightenfactor0
+\cf7 \cb8 \'a0\'a0\cf12 \strokec12 font-family\cf7 \strokec7 :\'a0\cf13 \strokec13 "bigelow\'a0Rules"\cf7 \strokec7 ;\cb1 \
+\cb8 \'a0\'a0\cf12 \strokec12 font-size\cf7 \strokec7 :\'a0\cf22 \strokec22 80px\cf7 \strokec7 ;\cb1 \
+\cb8 \'a0\'a0\cf12 \strokec12 color\cf7 \strokec7 :\'a0\cf13 \strokec13 #0ccac4\cf7 \strokec7 ;\cb1 \
+\cb8 \}\cb1 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs28 \cf6 \cb20 \strokec18 \
+Add this to Index.css file to make changes \
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf7 \cb8 \strokec7 \'a0\'a0\cf12 \strokec12 background\cf7 \strokec7 :\'a0\cf14 \strokec14 linear-gradient\cf7 \strokec7 (\cb1 \
+\cb8 \'a0\'a0\'a0\'a0to\'a0\cf13 \strokec13 left\cf7 \strokec7 ,\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf14 \strokec14 rgba\cf7 \strokec7 (\cf22 \strokec22 7\cf7 \strokec7 ,\cf22 \strokec22 27\cf7 \strokec7 ,\cf22 \strokec22 82\cf7 \strokec7 ,\cf22 \strokec22 1\cf7 \strokec7 )\'a0\cf22 \strokec22 0%\cf7 \strokec7 ,\cb1 \
+\cb8 \'a0\'a0\'a0\'a0\cf14 \strokec14 rgba\cf7 \strokec7 (\cf22 \strokec22 0\cf7 \strokec7 ,\cf22 \strokec22 128\cf7 \strokec7 ,\cf22 \strokec22 128\cf7 \strokec7 ,\cf22 \strokec22 1\cf7 \strokec7 )\'a0\cf22 \strokec22 100%\cf7 \cb1 \strokec7 \
+\cb8 \'a0\'a0);\cb1 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs28 \cf6 \cb20 \strokec18 Thats how the page looks\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {{\NeXTGraphic Screen Shot 2020-03-01 at 11.17.11 PM.png \width7960 \height4460 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}
+\f3\fs28 \cf6 \cb20 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec18 \
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f1\b \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\cf0 Deploying the App on GitHub\
+
+\f0\b0 - Go to GitHub\
+- Make a repo\
+- Copy SSH Key\
+- git remote add origin git@github.com:ahmadwaheed/Monster-Rolodex.git\
+  or \
+- git clone git@github.com:ahmadwaheed/Monster-Rolodex.git\
+- yarn add gh-pages\
+  than go to Package.json file in the Project\
+add before \'93private\'94: true\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\cf12 \strokec12 "homepage"\cf7 \strokec7 :\'a0\cf13 \strokec13 "https://ahmadwaheed.github.io/Monster-Rolodex"\cf7 \strokec7 ,\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 And in \'93Scripts\'94: \{\
+\pard\pardeftab720\sl360\partightenfactor0
+
+\f3\fs24 \cf7 \cb8 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 \'a0\'a0\'a0\'a0\cf12 \strokec12 "predeploy"\cf7 \strokec7 :\'a0\cf13 \strokec13 "yarn\'a0build"\cf7 \cb1 \strokec7 \
+\
+\cb8 \'a0\'a0\'a0\'a0\cf12 \strokec12 "deploy"\cf7 \strokec7 :\'a0\cf13 \strokec13 "gh-pages\'a0-d\'a0build"\cf7 \cb1 \strokec7 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs28 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \}\
+
+\f1\b \
+\
+\
+
+\f0\b0 \
+
+\fs24 \
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+}
